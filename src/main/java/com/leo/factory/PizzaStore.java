@@ -1,5 +1,7 @@
 package com.leo.factory;
 
+import com.leo.factory.pizza.Pizza;
+
 /**
  * 披萨的工厂类
  */

@@ -1,14 +1,17 @@
-package com.leo.factory;
+package com.leo.factory.pizza;
+
+import com.leo.factory.ChicagoPizzaIngredientFactory;
 
 /**
- * 纽约 蛤蜊 披萨
+ * 纽约 蔬菜 披萨
  */
-public class ChicagoStyleClamPizza extends Pizza{
+public class ChicagoStyleVeggiePizza extends Pizza {
     public ChicagoPizzaIngredientFactory chicagoPizzaIngredientFactory;
 
-    public ChicagoStyleClamPizza(ChicagoPizzaIngredientFactory chicagoPizzaIngredientFactory) {
+    public ChicagoStyleVeggiePizza(ChicagoPizzaIngredientFactory chicagoPizzaIngredientFactory) {
         this.chicagoPizzaIngredientFactory = chicagoPizzaIngredientFactory;
     }
+
     @Override
     public void prepare() {
         this.dough = chicagoPizzaIngredientFactory.createDough();

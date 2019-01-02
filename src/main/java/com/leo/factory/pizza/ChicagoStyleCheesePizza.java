@@ -1,4 +1,6 @@
-package com.leo.factory;
+package com.leo.factory.pizza;
+
+import com.leo.factory.ChicagoPizzaIngredientFactory;
 
 /**
  * 纽约 芝士 披萨

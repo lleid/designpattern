@@ -1,13 +1,15 @@
-package com.leo.factory;
+package com.leo.factory.pizza;
+
+import com.leo.factory.NYPizzaIngredientFactory;
 
 /**
- * 纽约 蔬菜 披萨
+ * 纽约 芝士 披萨
  */
-public class NYStyleVeggiePizza extends Pizza {
+public class NYStyleCheesePizza extends Pizza {
 
     public NYPizzaIngredientFactory nyPizzaIngredientFactory;
 
-    public NYStyleVeggiePizza(NYPizzaIngredientFactory nyPizzaIngredientFactory) {
+    public NYStyleCheesePizza(NYPizzaIngredientFactory nyPizzaIngredientFactory) {
         this.nyPizzaIngredientFactory = nyPizzaIngredientFactory;
     }
 

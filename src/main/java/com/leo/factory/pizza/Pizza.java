@@ -1,4 +1,4 @@
-package com.leo.factory;
+package com.leo.factory.pizza;
 
 import com.leo.factory.ingredient.Cheese;
 import com.leo.factory.ingredient.Clams;

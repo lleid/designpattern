@@ -1,5 +1,10 @@
 package com.leo.factory;
 
+import com.leo.factory.pizza.ChicagoStyleCheesePizza;
+import com.leo.factory.pizza.ChicagoStyleClamPizza;
+import com.leo.factory.pizza.ChicagoStyleVeggiePizza;
+import com.leo.factory.pizza.Pizza;
+
 /**
  * 芝加哥 披萨 工厂实现类
  */
